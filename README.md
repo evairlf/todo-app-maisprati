@@ -11,9 +11,9 @@
 - password `password`;
 
 **Functions**
-`QRCodeGenerator`;
-`IPAddressFinder`;
-`MovieSearchEngine`;
-`TodoApp`;
-`QuizApp`;
-`LanguageTranslator`;
+- `QRCodeGenerator`;
+- `IPAddressFinder`;
+- `MovieSearchEngine`;
+- `TodoApp`;
+- `QuizApp`;
+- `LanguageTranslator`;

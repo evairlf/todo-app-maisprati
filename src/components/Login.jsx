@@ -1,6 +1,6 @@
 import { useState } from 'react'; // Importa o hook useState do React
 import styled from 'styled-components'; // Importa styled-components para estilizar os componentes
-import { mockJwt } from '../utils/fakeJwt';
+import { mockJwt } from '../utils/mockJwt';
 import { useNavigate } from 'react-router-dom';
 
 // Define o estilo do container principal do login

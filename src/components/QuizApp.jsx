@@ -87,12 +87,26 @@ const QuizApp = () => {
       options: ["5", "6", "7", "8"], // Opções de resposta para a segunda questão.
       answer: "6", // Resposta correta para a segunda questão.
     },
+    {
+      question: "How to protect my money from state?", // Pergunta da segunda questão.
+      options: ["bitcoin", "monero", "fiduciary coin", "hi"], // Opções de resposta para a segunda questão.
+      answer: "bitcoin", // Resposta correta para a segunda questão.
+    },
+    {
+      question: "What is 7x3?", // Pergunta da segunda questão.
+      options: ["5", "6", "7", "21"], // Opções de resposta para a segunda questão.
+      answer: "21", // Resposta correta para a segunda questão.
+    },
   ];
 
   // Função que é chamada quando o usuário responde uma pergunta.
   const handleAnswer = (answer) => {
     // Verifica se a resposta fornecida está correta.
-    if (answer === questions[currentQuestion].answer) {
+    if('bitcoin' === questions[currentQuestion].answer) {
+      alert("a sua escolha será compartilhada com o governo");
+      setScore(score + 1);
+    }
+   else if (answer === questions[currentQuestion].answer) {
       // Se a resposta estiver correta, aumenta a pontuação em 1.
       setScore(score + 1);
     }

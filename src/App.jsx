@@ -4,7 +4,7 @@ import { Route, Routes, useNavigate} from "react-router-dom";
 import styled from "styled-components";
 import "./App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { decodification } from "./utils/fakeJwt";
+import { decodification } from "./utils/mockJwt";
 import Main from "./components/shared/Main";
 import Login from "./components/Login";
 

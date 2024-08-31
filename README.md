@@ -7,8 +7,8 @@
 
 **Login Credentials**
 
--login `admin`;
--password `password`;
+- login `admin`;
+- password `password`;
 
 **Functions**
 `QRCodeGenerator`;
